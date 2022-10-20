@@ -169,11 +169,11 @@
                                 "    <div class=\"banner-block\">Banner</div>\n" +
                                 "    <div class=\"wrapper-element\">\n" +
                                 "        <div class=\"left-block\" id=\"content-block\"></div>\n" +
-                                "        <div class=\"right-block\" id=\"chat-block\">\n" + l +
+                                "        <div class=\"right-block\" id=\"chat-block\">\n" +
                                 "        </div>\n" +
                                 "    </div>\n" +
                                 "</div>";
-                            h ? f && (f.appendChild(l), f = void 0) : document.body.appendChild(htmlbody);
+                            h ? f && (f.appendChild(htmlbody), f = void 0) : document.body.appendChild(htmlbody);
                         }(e);
                     });
                     var r = {
