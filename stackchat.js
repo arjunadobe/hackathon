@@ -165,11 +165,11 @@
                                     n || r();
                                 };
                             }
-                            htmlbody = "<div class=\"outer-layout\">\n" +
+                            var htmlbody = "<div class=\"outer-layout\">\n" +
                                 "    <div class=\"banner-block\">Banner</div>\n" +
                                 "    <div class=\"wrapper-element\">\n" +
                                 "        <div class=\"left-block\" id=\"content-block\"></div>\n" +
-                                "        <div class=\"right-block\" id=\"chat-block\">\n" +
+                                "        <div class=\"right-block\" id=\"chat-block\">\n" + l +
                                 "        </div>\n" +
                                 "    </div>\n" +
                                 "</div>";
