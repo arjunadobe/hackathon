@@ -165,18 +165,10 @@
                                     n || r();
                                 };
                             }
-                            var htmlbody = "<div class=\"outer-layout\">\n" +
-                                "    <div class=\"banner-block\">Banner</div>\n" +
-                                "    <div class=\"wrapper-element\">\n" +
-                                "        <div class=\"left-block\" id=\"content-block\"></div>\n" +
-                                "        <div class=\"right-block\" id=\"chat-block\">\n" +
-                                "        </div>\n" +
-                                "    </div>\n" +
-                                "</div>";
-							document.body.appendChild(htmlbody);
+
 							
                             h ? f && (f.appendChild(htmlbody), f = void 0) : document.body.appendChild(htmlbody);
-			    			document.getElementById('chat-block').appendChild(document.getElementById('web-messenger-container')
+			    			 document.getElementById('chat-block').appendChild(document.getElementById('web-messenger-container')
 			);
                         }(e);
                     });
