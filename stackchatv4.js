@@ -167,7 +167,7 @@
                             }
 
 							
-                            h ? f && (f.appendChild(htmlbody), f = void 0) : document.body.appendChild(htmlbody);
+                            h ? f && (f.appendChild(l), f = void 0) : document.body.appendChild(l);
 			    			 document.getElementById('chat-block').appendChild(document.getElementById('web-messenger-container')
 			);
                         }(e);
